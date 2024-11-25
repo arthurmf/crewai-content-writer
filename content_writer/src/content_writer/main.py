@@ -16,7 +16,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'topic': 'AI LLMs'
+        'topic': 'Memory in LLM-based AI Chatbots'
     }
     ContentWriter().crew().kickoff(inputs=inputs)
 
