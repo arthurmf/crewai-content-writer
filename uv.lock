@@ -515,12 +515,14 @@ source = { virtual = "." }
 dependencies = [
     { name = "crewai" },
     { name = "crewai-tools" },
+    { name = "exa-py" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "crewai", specifier = ">=0.80.0" },
     { name = "crewai-tools", specifier = ">=0.14.0" },
+    { name = "exa-py", specifier = ">=1.6.0" },
 ]
 
 [[package]]
@@ -700,6 +702,20 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/6c/ea/eedb6016719f94fe4bd4c5aa44cc5463d85494bbd0864cc465e4317d4987/embedchain-0.1.125.tar.gz", hash = "sha256:15a6d368b48ba33feb93b237caa54f6e9078537c02a49c1373e59cc32627a138", size = 125176 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/52/82/3d0355c22bc68cfbb8fbcf670da4c01b31bd7eb516974a08cf7533e89887/embedchain-0.1.125-py3-none-any.whl", hash = "sha256:f87b49732dc192c6b61221830f29e59cf2aff26d8f5d69df81f6f6cf482715c2", size = 211367 },
+]
+
+[[package]]
+name = "exa-py"
+version = "1.6.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "openai" },
+    { name = "requests" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/b7/bd/a45aa993e755081ddd4ece195dcc6d65a4f1decc3dc09e56e671ac7b9231/exa_py-1.6.0.tar.gz", hash = "sha256:eab27dbb1fa83023668b60f497852aaaf0890ab88827d9811f09395f2d49087c", size = 10737 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/45/9b/1476923d145c864a0301fe71147a31b4b75d2eb1f61c768a99309a2be9ce/exa_py-1.6.0-py3-none-any.whl", hash = "sha256:a6a873212272f9430ba832e77ac4a1bd7923e806af30ecea40f750f88bb1896f", size = 10073 },
 ]
 
 [[package]]
